@@ -1,5 +1,5 @@
 export default {
-    say: function() {
+    say: function () {
         document.write('Hello webpack');
     }
 }

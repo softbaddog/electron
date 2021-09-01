@@ -1,2 +1,6 @@
-import renderModule from './renderModule';
-renderModule.say();
+import $ from './jquery.min'
+import renderModule from './renderModule'
+
+$(function () {
+    renderModule.say();
+})

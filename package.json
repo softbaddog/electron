@@ -8,6 +8,11 @@
     "electron-webpack": "^2.8.2",
     "webpack": "4.5.0"
   },
+  "electronWebpack" : {
+    "renderer": {
+      "template": "src/renderer/index.html"
+    }
+  },
   "scripts": {
     "start": "electron-webpack dev",
     "build": "electron-webpack build"
