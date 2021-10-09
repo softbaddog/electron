@@ -6,9 +6,9 @@ process.env['ELECTRON_DISABLE_SECURITY_WARNINGS'] = 'true';
 app.on('ready', () => {
     win = new BrowserWindow({
         //transparent: true,
-        // frame: false,
-        webPreferences: { 
-            nodeIntegration: true, 
+        frame: false,
+        webPreferences: {
+            nodeIntegration: true,
             contextIsolation: false,
             enableRemoteModule: true
         }
